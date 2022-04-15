@@ -54,6 +54,25 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.zip
+*.bin
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+### custom ignore list
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+*.sublime-workspace
+
+*/Assets/AssetStoreTools
+*/Sirenix/Assemblies/AOT
+*/Assets/StreamingAssets/com.unity.addressables/
+*/Assets/StreamingAssets/aa/
